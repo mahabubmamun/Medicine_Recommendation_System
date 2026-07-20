@@ -1,12 +1,3 @@
-# import pandas as pd
-
-# description = pd.read_csv("app\data\description.csv")
-# precaution = pd.read_csv("app\data\precautions.csv")
-# medication = pd.read_csv("app\data\medications.csv")
-# diet = pd.read_csv("app\data\diets.csv")
-# workout = pd.read_csv("app\data\workout_df.csv")
-
-
 from pathlib import Path
 import pandas as pd
 

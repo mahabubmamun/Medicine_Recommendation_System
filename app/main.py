@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 import ast
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 from .model import model
 from .schemas import Symptoms
@@ -10,6 +11,18 @@ from .data_loader import (
     medication,
     diet,
     workout
+)
+
+
+app = FastAPI()
+
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # React frontend
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -25,10 +38,10 @@ diseases_list = {15: 'Fungal infection', 4: 'Allergy', 16: 'GERD', 9: 'Chronic c
                  31: 'Osteoarthristis', 5: 'Arthritis', 0: '(vertigo) Paroymsal  Positional Vertigo', 
                  2: 'Acne', 38: 'Urinary tract infection', 35: 'Psoriasis', 27: 'Impetigo'}
 
-app = FastAPI(
-    title = "Medicne Recommendation System",
-    version = "1.0.0"
-)
+# app = FastAPI(
+#     title = "Medicne Recommendation System",
+#     version = "1.0.0"
+# )
 
 @app.get("/")
 def home():
