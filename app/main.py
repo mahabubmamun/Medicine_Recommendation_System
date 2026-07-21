@@ -19,7 +19,7 @@ app = FastAPI()
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React frontend
+    allow_origins=["http://localhost:5173", "https://medicine-recommendation-system-six.vercel.app"],  # React frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
