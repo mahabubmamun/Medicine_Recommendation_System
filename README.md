@@ -173,27 +173,23 @@ The React frontend receives the API response and displays the information in a s
 
 ### Page overview
 
-markdown
 ![My Care Guide - Symptoms Upload UI](assets/symptoms_ui.png)
 
 
 ### Disease Prediction Result
 
-```markdown
 ![My Care Guide - Prediction Disease Result](screenshots/disease_description.png)
-```
+
 
 ### The precaution, medication, diet, and workout related to the disease
 
-```markdown
 ![My Care Guide - Precaution, Medication, Diet and Workout](screenshots/precaution_medication_diet_workout.png)
-```
+
 
 ### Download the prescription
 
-```markdown
 ![My Care Guide - Prescription download](screenshots/prescription_download.png)
-```
+
 
 
 ## 📂 Project Structure
