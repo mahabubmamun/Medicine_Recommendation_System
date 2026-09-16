@@ -173,9 +173,9 @@ The React frontend receives the API response and displays the information in a s
 
 ### Page overview
 
-```markdown
+markdown
 ![My Care Guide - Symptoms Upload UI](assets/symptoms_ui.png)
-```
+
 
 ### Disease Prediction Result
 
