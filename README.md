@@ -178,17 +178,17 @@ The React frontend receives the API response and displays the information in a s
 
 ### Disease Prediction Result
 
-![My Care Guide - Prediction Disease Result](screenshots/disease_description.png)
+![My Care Guide - Prediction Disease Result](assets/disease_description.png)
 
 
 ### The precaution, medication, diet, and workout related to the disease
 
-![My Care Guide - Precaution, Medication, Diet and Workout](screenshots/precaution_medication_diet_workout.png)
+![My Care Guide - Precaution, Medication, Diet and Workout](assets/precaution_medication_diet_workout.png)
 
 
 ### Download the prescription
 
-![My Care Guide - Prescription download](screenshots/prescription_download.png)
+![My Care Guide - Prescription download](assets/prescription_download.png)
 
 
 
