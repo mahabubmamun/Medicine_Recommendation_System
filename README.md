@@ -171,9 +171,7 @@ The React frontend receives the API response and displays the information in a s
 
 ## 📸 Application Preview
 
-### Home Page
-
-Add a screenshot of your application here:
+### Page overview
 
 ```markdown
 ![My Care Guide - Home Page](screenshots/home.png)
