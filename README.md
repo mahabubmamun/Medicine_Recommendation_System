@@ -188,7 +188,7 @@ The React frontend receives the API response and displays the information in a s
 
 ### Download the prescription
 
-![My Care Guide - Prescription download](assets/prescription_download.png)
+![My Care Guide - Prescription download](assets/download_prescription.png)
 
 
 
